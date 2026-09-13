@@ -1,0 +1,27 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arduino
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+.env
+config_local.h
